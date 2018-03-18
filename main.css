@@ -95,6 +95,12 @@ body {
 	line-height: 3em;
 }
 
+#site-nav h1 {
+	font-size: 1.7em;
+	display: inline-flex;
+	padding-left: 0.5em
+}
+
 #site-nav a {
 	padding: 1em;
 }
@@ -110,10 +116,7 @@ body {
 	position: absolute;
 	left: 0;
 	height: 100%;
-}
-
-.logo h1 {
-	display: inline-flex;
+	padding-left: 0.5em;
 }
 
 /* Projects */
