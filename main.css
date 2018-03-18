@@ -157,3 +157,8 @@ header {
 	max-width: calc(100% - 4em);
 	margin: 0 auto;
 }
+
+h2 {
+	font-size: 4.25em;
+	line-height: 1em;
+}
