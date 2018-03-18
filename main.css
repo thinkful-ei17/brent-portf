@@ -75,7 +75,9 @@ body {
 }
 
 
-/* Header rules */
+
+
+/* nav-bar rules */
 
 #site-nav {
 	padding: 15px;
@@ -107,7 +109,6 @@ body {
 	position: absolute;
 	left: 0;
 	height: 100%;
-	width: 100%;		
 }
 
 /* Projects */
@@ -131,6 +132,28 @@ body {
 	height: 227px;
 }
 
-.project-stills {
+/* .project-stills {
 
+} */
+
+header {
+	margin-bottom: 1em;
+}
+
+.container {
+	min-height: 100%;
+	display: flex;
+	position: relative;
+	margin: 0;
+	overflow-x: hidden;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 3em 0 3em 0;
+}
+
+.content {
+	width: 45em;
+	max-width: calc(100% - 4em);
+	margin: 0 auto;
 }
