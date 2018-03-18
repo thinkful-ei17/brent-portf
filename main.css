@@ -90,9 +90,10 @@ body {
 	z-index: 100000;
 	top: 0;
 	width: 100%;
-	background: rgba(255, 187, 109, 0.95);
+	background: rgba(0, 13, 32, 0.438);
 	height: 3em;
 	line-height: 3em;
+	color: rgb(255, 255, 255);
 }
 
 #site-nav h1 {
@@ -124,12 +125,33 @@ body {
 	background-image: url('images/eclipse.jpg');
 	color: white;
 	background-size: cover;
+	background-repeat: no-repeat;	
 }
 
 #story {
-	background-image: url('images/me.jpg');
+	background-image: url('images/reddrum.jpg');
 	color: white;
-	background-size: cover;	
+	background-size: cover;
+	background-repeat: no-repeat;	
+}
+
+#projects {
+	background-image: url('images/ocean.jpg');
+	color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#contact {
+	background-image: url('images/snow.jpg');
+	color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.scroll img {
+	height: auto;
+	width: 50px;
 }
 
 /* Projects */
