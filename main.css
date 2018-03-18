@@ -126,6 +126,12 @@ body {
 	background-size: cover;
 }
 
+#story {
+	background-image: url('images/me.jpg');
+	color: white;
+	background-size: cover;	
+}
+
 /* Projects */
 
 .display {
