@@ -77,7 +77,13 @@ body {
 
 /* Header rules */
 
-#header {
+#site-nav {
+	padding: 15px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+	flex-wrap: wrap;
 	position: fixed;
 	z-index: 100000;
 	top: 0;
@@ -87,40 +93,21 @@ body {
 	line-height: 3em;
 }
 
-#header h1 {
-	position: absolute;
-	left: 1em;
+#site-nav a {
+	padding: 6px;
+}
+
+#site-nav img {
+	width: 3em;
+	height: auto;
+}
+
+.logo {
 	top: 0;
-	height: 3em;
-	line-height: 3em;
-}
-
-#header h1 a {
-	font-size: 1.25em;
-}
-
-#header nav {
 	position: absolute;
-	right: 0.5em;
-	top: 0;
-	height: 3em;
-	line-height: 3em;
-}
-
-#header nav ul li {
-	display: inline-block;
-	margin-left: 0.5em;
-	font-size: 0.9em;
-}
-
-header {
-	margin-bottom: 1em;
-}
-
-header p {
-	display: block;
-	margin: 1em 0 0 0;
-	padding: 0 0 0.5em 0;
+	left: 0;
+	height: 100%;
+	width: 100%;		
 }
 
 /* Projects */
@@ -130,7 +117,7 @@ header p {
 	flex-wrap: wrap;
 	width: 45em;
 	max-width: 100%;
-	margin: 0 auto 2em auto;
+	margin: 0 auto;
 }
 
 .main {
@@ -140,14 +127,10 @@ header p {
 }
 
 .main img {
-	display: block;
 	width: 440px;
 	height: 227px;
 }
 
 .project-stills {
-	width: 440px;
-	height: 227px;
-	max-width: 440px;
-	max-height: 227px;
+
 }
