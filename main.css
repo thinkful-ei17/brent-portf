@@ -105,10 +105,15 @@ body {
 }
 
 .logo {
+	display: flex;
 	top: 0;
 	position: absolute;
 	left: 0;
 	height: 100%;
+}
+
+.logo h1 {
+	display: inline-flex;
 }
 
 /* Projects */
