@@ -119,6 +119,13 @@ body {
 	padding-left: 0.5em;
 }
 
+/* intro section */
+#intro {
+	background-image: url('images/eclipse.jpg');
+	color: white;
+	background-size: cover;
+}
+
 /* Projects */
 
 .display {
